@@ -1,0 +1,109 @@
+/* Main stuff */
+.text {
+  fill: none;
+  stroke-width: 6;
+  stroke-linejoin: round;
+  stroke-dasharray: 70 330;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear; }
+  .text:nth-child(5n + 1) {
+    stroke: #0F08FF;
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s; }
+  .text:nth-child(5n + 2) {
+    stroke: #ffffff;
+    -webkit-animation-delay: -2.4s;
+    animation-delay: -2.4s; }
+  .text:nth-child(5n + 3) {
+    stroke: #2174FF;
+    -webkit-animation-delay: -3.6s;
+    animation-delay: -3.6s; }
+  .text:nth-child(5n + 4) {
+    stroke: #128EE8;
+    -webkit-animation-delay: -4.8s;
+    animation-delay: -4.8s; }
+  .text:nth-child(5n + 5) {
+    stroke: #14CCFF;
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s; }
+
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400; } }
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400; } }
+/* Other stuff */
+html,
+body {
+  height: 100%; }
+
+
+.content {
+  font: 800 14.5em/1  'Open Sans', Impact; }
+
+svg {
+  width: 50%;
+  margin: 0 auto 50px;
+  display: block;
+  text-transform: uppercase; }
+
+.underline{
+  text-decoration: underline;
+}
+
+li {
+  display: inline;
+  text-align: center;
+}
+
+.hello  {
+  padding-left:20px;
+  width:750px;
+
+}
+
+.logo {
+  display: inline-block;
+  width: 25%;
+  /*padding: .75rem 0;*/
+  /*margin: 0;*/
+  text-decoration: none;
+  color: #333333;
+}
+
+.two:hover ~ hr {
+  margin-left: 25%;
+}
+
+.three:hover ~ hr {
+  margin-left: 50%;
+}
+
+.four:hover ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: .25rem;
+  width: 25%;
+  margin: 0;
+  background:    linear-gradient(to top right, #0F08FF, #128EE8);;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+h3 { font-family: Andale Mono,AndaleMono,monospace; }
+
+a { font-family: Andale Mono,AndaleMono,monospace; }
+
+p { font-family: Andale Mono,AndaleMono,monospace; }
+
+h1 { font-family: Andale Mono,AndaleMono,monospace; }
+
+span { font-family: Andale Mono,AndaleMono,monospace; }
+
+
+
+/*# sourceMappingURL=style12.css.map */
